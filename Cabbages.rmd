@@ -55,7 +55,12 @@ The boxplot illustrated a bias towards the cultivation c52, and this remains evi
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
 
+The p value calculated in this t-test is a value of 0.00000003405, which is a measure of the calculated probability that this bias towards cultivation c52 came to be by chance. This specific value is the percentage of possibility in which this set of data would occur, if the null hypothesis is true. This extremely small p-value indicates that the alternative hypothesis is likely to be true, and that we should reject the null hypothesis.
+  
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
