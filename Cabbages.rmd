@@ -35,6 +35,12 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+
+The cultivation method c52, has a higher amount of Vitamin C, and a larger median of 51, while c39 amounts to a drastically lesser amount of Vitamin C. The lower quartile of the c52 cultivation is greater than the upper quartile of the c39 cultivation, and the minimum of the c52 data, is great enough to be in the interquartile range of the c39 boxplot. All this indicates that c52 produces a much larger amount of Vitamin C than the c39 variety.
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
